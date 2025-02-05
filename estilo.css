@@ -104,25 +104,25 @@ section.imagen {
 }
 
 section#img01 {
-  background-image: url(imagens/noticias.png);
+  background-image: url(../projeto-site-worldnews/imagens/noticias.png);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 section#img02 {
-  background-image: url(imagens/imagen001.png);
+  background-image: url(../projeto-site-worldnews/imagens/imagen001.png);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 section#img03 {
-  background-image: url(imagens/washington-d-1624419_1280.jpg);
+  background-image: url(../projeto-site-worldnews/imagens/washington-d-1624419_1280.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 section#img04 {
-  background-image: url(imagens/imagen002.png);
+  background-image: url(../projeto-site-worldnews/imagens/imagen002.png);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;

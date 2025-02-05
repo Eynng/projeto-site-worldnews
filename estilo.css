@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+:root {
+  ---fonte1: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* CONFIGURAÇÕES GLOBAIS */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1em;
+}
+
+/* PRE-SET HTML, BODY */
+
+html,
+body {
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.301);
+  font-family: var(--fonte1);
+}
+
+/* CABEÇALHO DO SITE */
+
+.logo {
+  padding-top: 40px;
+  height: 5vh;
+}
+
+.logo2 {
+  padding-right: 40px;
+  margin-left: 40px;
+  width: 40px;
+  
+}
+
+header {
+  background-color: rgb(175, 0, 0);
+  color: white;
+  text-align: center;
+}
+
+header > h1 {
+  font-variant: small-caps;
+  font-size: 5vh;
+}
+
+header > p {
+  padding-bottom: 40px;
+  font-variant: small-caps;
+  font-size: 3vh;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* SECTIONS DO SITE */
+
+section {
+  padding-top: 5vh;
+  padding-bottom: 50vh;
+  line-height: 2em;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: var(---fonte1);
+  font-size: 2em;
+}
+
+section h1:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+section > h1 {
+  font-size: 1.5em;
+  text-shadow: 2px 2px 1px white;
+}
+
+section > p {
+  font-size: 1em;
+  color: white;
+}
+
+section.imagen h1,
+section.imagen p {
+  background-color: rgba(0, 0, 0, 0.425);
+  padding-left: 10px;
+}
+
+section.imagen a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+section.imagen {
+  box-shadow: inset 7px 7px 20px 0px black;
+}
+
+section#img01 {
+  background-image: url(../d013/imagens/noticias.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+section#img02 {
+  background-image: url(../d013/imagens/imagen001.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+section#img03 {
+  background-image: url(../d013/imagens/washington-d-1624419_1280.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+section#img04 {
+  background-image: url(../d013/imagens/imagen002.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+footer {
+  background-color: rgb(175, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-variant: small-caps;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
